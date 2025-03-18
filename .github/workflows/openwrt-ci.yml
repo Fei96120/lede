@@ -11,8 +11,8 @@ on:
   schedule:
     - cron: 0 20 * * *
 
-permissions:
-  contents: read
+release:
+  types: [published]
 
 jobs:
 
